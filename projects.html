@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Projects</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
@@ -19,16 +20,88 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="coursework.html">Coursework</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="assets/resume.pdf" target="_blank">Resume</a></li>
         </ul>
     </nav>
 </header>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <p>Projects here</p>
-</section>
+<main>
+    <h1>Projects & Coursework</h1>
+    <section class="projects-container">
+        <div class="project-card">
+            <h2>HP iLO Inventory Management System</h2>
+            <img src="assets/verizon-project-1.png" alt="Screenshot of Verizon Project 1">
+            <p>During my internships at Verizon, I developed and automated an inventory management system leveraging
+                OpenShift API and Redfish technology to collect and organize essential hardware details from multiple
+                clusters of bare metal servers. I improved and facilitated inventory tracking and strategic
+                decision-making for maintenance and upgrades. I designed a user-friendly interface for the easy access
+                and visualization of hardware information.</p>
+            <p><b>Tools used: Node.js, PostgreSQL</b></p>
+        </div>
+        <div class="project-card">
+            <h2>Dynamic Power Optimization and Emissions Monitoring in Kubernetes Clusters</h2>
+            <img src="assets/verizon-project-2.png" alt="Screenshot of Verizon Project 2">
+            <p>During my internships at Verizon, I integrated Red Hat's Kepler power-monitoring platform to monitor the
+                carbon dioxide emissions and total power consumption of numerous pods and containers in the North
+                Seattle cluster. I set up dashboards on Grafana to easily identify the top namespaces in power
+                consumption, and deployed a cpu frequency container image within Kubernetes in order to dynamically
+                reduce power consumption as needed in such namespaces.</p>
+            <p><b>Tools used: Kubernetes, Grafana</b></p>
+        </div>
+        <div class="project-card">
+            <h2>2D Enchanted Quest Adventure Game</h2>
+            <p>In my CS 2340 (Objects & Design) class, I collaborated with team of four other studetns to develop a 2D
+                Dungeon Crawler Adventure Game using Java throughout five two-week Sprints following the Agile project
+                management methodology. We implemented core gameplay features, including various levels, a leaderboard,
+                and start, configuration, and end screens, while integrating object-oriented design principles.
+            </p>
+            <p><b>Tools used: Java, Android Studio</b></p>
+            <a href="https://github.com/vyjaa/CS2340A_Team22" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h2>RISC Datapath with Interrupts and I/O Support</h2>
+            <img src="assets/cs2200-project.png" alt="Screenshot of CS 2200">
+            <p>In my CS 2200 (Systems & Networks) class, I individually designed a series of datapaths for a RISC
+                computer based on MIPS. Using CircuitSim, a logic simulator, I built on top of my initial datapath
+                and implemented logic for interrupts and support for external I/O devices.</p>
+            <p><b>Tools used: CircuitSim (logic simulator), LC-2200 ISA</b></p>
+        </div>
+        <div class="project-card">
+            <h2>Embedded Systems Cybersecurity Research</h2>
+            <img src="assets/vip-project.png" alt="Screenshot of VIP Project">
+            <p>I worked alongside researchers with the Georgia Tech Research Institute (GTRI) to examine and assess the
+                existence of cybersecurity found within IoT hardware devices. I conducted a multi-domain investigation
+                through the use of hardware reverse engineering, software/firmware reverse engineering using Ghidra, and
+                RF analysis along with static and dynamic testing through instrumentation. In my most recent semester, I
+                developed and spoofed a surrogate device design for the Signaling Line Circuit network of a wireless
+                fire alarm system using an Arduino microcontroller. I tested and demonstrated any identified holes in
+                the devices’ cybersecurity protection.
+            </p>
+            <p><b>Tools used: C, Python, Ghidra</b></p>
+            <a href="assets/Fire_Alarm_Spring_2024_Final_Paper.pdf" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h2>Drone Dispatch Delivery System</h2>
+            <img src="assets/cs4400-project.png" alt="Screenshot of CS 4400">
+            <p>In my CS 4400 (Intro to Database Systems) class, I analyzed, designed, and implemented a database
+                application based on a fictional drone-based delivery service company using MySQL. I developed an
+                Enhanced Entity-Relationship Diagram (EERD) and relational schema with a team of two others.
+            </p>
+            <p><b>Tools used: MySQL</b></p>
+        </div>
+        <div class="project-card">
+            <h2>Jude Tobias Poetry Website Design and Development</h2>
+            <p>I surprised my father by developing and designing a promotional website for his poetry using HTML and
+                CSS. I constructed website animations using JavaScript to enhance the user experience. I conducted
+                extensive testing and debugging to ensure the website was fully functional and error-free.
+                I collaborated closely with my father to incorporate his feedback into the final design.
+            </p>
+            <p><b>Tools used: HTML, CSS, Javascript</b></p>
+            <a href="https://github.com/skutch30/judetobias" target="_blank">View Project</a>
+        </div>
+    </section>
+</main>
 
 <footer>
     <div class="footer-content">
@@ -36,7 +109,7 @@
         <div class="footer-nav">
             <a href="index.html">Home</a>
             <a href="projects.html">Projects</a>
-            <a href="coursework.html">Coursework</a>
+            <a href="portfolio.html">Portfolio</a>
             <a href="assets/resume.pdf" target="_blank">Resume</a>
         </div>
         <div class="footer-socials">
