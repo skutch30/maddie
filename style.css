@@ -51,7 +51,7 @@ nav ul li a:hover {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px black;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease;
 }
@@ -62,9 +62,11 @@ nav ul li a:hover {
 }
 
 footer {
-    color: black;
-    padding: 20px;
+    background-color: white;
+    width: 100%;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .footer-content {
@@ -94,6 +96,14 @@ footer p {
 
 .footer-nav a:hover {
     color: black;
+}
+
+.footer-socials a img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer-socials a img:hover {
+    transform: scale(1.1);
 }
 
 h1 {
@@ -152,10 +162,209 @@ h1 {
 }
 
 .project-card img {
-    width: 100%; /* Full width of the card */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 8px; /* Rounds the edges of the image */
-    margin-bottom: 15px; /* Space between the image and text */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
     user-select: none;
     pointer-events: none;
+}
+
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.experience-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.experience-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    min-height: 369px;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.experience-card h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience-card h5 {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.experience-card p {
+    color: #666;
+    font-size: 0.95em;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+.experience-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    width: 100%;
+}
+
+.experience-card-link:hover .experience-card {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skills-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.skills-section h2 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.skills-section p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.skill-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.skill-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-card li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 1em;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+.skill-card li:last-child {
+    border-bottom: none;
+}
+
+.skill-card small {
+    font-size: 0.85em;
+    color: #666;
+    margin-left: auto;
+}
+
+.icon {
+    margin-right: 8px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.me {
+    text-align: center;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+}
+
+.me h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 700px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.intro a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro a:hover {
+    text-decoration: underline;
+}
+
+.company-logo {
+    width: 30px;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gtri-logo {
+    width: 130px;
 }
