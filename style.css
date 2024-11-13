@@ -86,6 +86,7 @@ footer p {
 .footer-socials {
     display: flex;
     gap: 13px;
+    justify-content: center;
 }
 
 .footer-nav a {
