@@ -7,7 +7,6 @@
     <list default="true" id="095d299e-0cc4-43b8-b6eb-92adc7998427" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="maddie-website" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,7 +88,9 @@
       <workItem from="1731619623685" duration="42000" />
       <workItem from="1731988158920" duration="723000" />
       <workItem from="1732558529923" duration="49000" />
-      <workItem from="1733805616046" duration="786000" />
+      <workItem from="1733805616046" duration="1172000" />
+      <workItem from="1735238521245" duration="162000" />
+      <workItem from="1736363861012" duration="52000" />
     </task>
     <servers />
   </component>
