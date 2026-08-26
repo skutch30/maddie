@@ -1,8 +1,8 @@
 # Welcome to Maddie's Website!
 
-I am a senior at Georgia Institute of Technology studying Computer Science with concentrations in Information Internetworks and Human-Computer Interaction.
+My name is Maddie and I hold a Bachelor of Science in Computer Science from Georgia Tech.
 
-I am super passionate about exploring innovative solutions in technology that promote sustainability, smart energy practices, and enhancing user experiences through effective human-computer interaction!
+I am passionate about exploring innovative solutions in technology that promote sustainability and enhance user experiences through human-computer interaction.
 
 In my (very limited) free time, I enjoy reading, running, and cooking new things-- you can find me on Goodreads and Strava.
 
