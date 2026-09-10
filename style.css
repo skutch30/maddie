@@ -358,12 +358,11 @@ h1 {
 }
 
 .company-logo {
-    width: 30px;
-    height: auto;
-    margin-bottom: 10px;
+    max-width: 120px;
+    height: 50px;
+    object-fit: contain;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 15px auto;
 }
 
 .gtri-logo {
