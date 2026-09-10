@@ -365,6 +365,7 @@ h1 {
     margin: 0 auto 15px auto;
 }
 
-.gtri-logo {
-    width: 130px;
+.vulcan-logo {
+    width: 140px; 
+    max-width: none;
 }
